@@ -1,0 +1,112 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+ 
+}
+/* .fa-brands,.fa-solid{
+    font-size: 50px;
+} */
+.navbar{
+    background-color:white !important;
+    border-bottom: 2px solid #0029FF !important;
+} 
+.navbar-brand h5{
+    font-weight: 900 !important;
+    font-size: 25px;
+    color: #0029FF!important;
+}
+
+.navbar-nav li a{
+    color: #0029FF!important;
+    font-weight: 900 !important;
+    font-size: 25px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 40px 40px 40px!important;
+    
+    
+}
+img{
+    width: 380px;
+    height: auto;
+    background-color: #0029FF;
+    border-radius: 50%;
+}
+.container-fluid  {
+    padding-top: 10px;
+    
+}
+.container-fluid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px; /* Make the container take the full height of the viewport */
+    justify-content: flex-end; /* Align items to the bottom */
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Take full width of the container */
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.technology-name {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.container-fluid .col-6 {
+    background-color: white!important;
+    
+}
+
+.col-6 h1{
+    padding-top: 30px;
+    font-weight: 900;
+}
+.col-6 h3{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#left-column, #right-column {
+    width: 50%;
+}
+
+footer{
+    background-color: #0029FF;
+    background-size: cover;
+    margin-bottom: 0 !important;
+    
+}
+
+@media (min-width: 992px) {
+    #left-column {
+        width: 66.666%;
+    }
+
+    #right-column {
+        width: 33.333%;
+    }
+}
